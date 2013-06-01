@@ -12,7 +12,7 @@ src/
 - ItemDataSource.java, helper untuk table items di Sqlite, isinya method untuk query ke table.
 - Item.java, Plain Old Java Object (POJO) sebagai representasi satu table di Sqlite.
 
-/res
+res/
 - halaman1.xml, layout untuk activity Halaman1
 - halaman2.xml, layout untuk activity Halaman2
 - mytextview.xml, layout untuk row di ListView
