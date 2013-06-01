@@ -45,7 +45,7 @@ public class Halaman2 extends Activity {
 			// set data ke sqlite, tetep pake ArrayAdapter nggak jadi custom
 			// adapter
 			ArrayAdapter<Item> adapter = new ArrayAdapter<Item>(getApplicationContext(),
-					android.R.layout.simple_list_item_1, result);
+					R.layout.mytextview, result);
 			listview.setAdapter(adapter);
 		}
 
